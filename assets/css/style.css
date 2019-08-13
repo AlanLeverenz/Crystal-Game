@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.page-header {
+    font-family: 'Amaranth', Arial, Helvetica, sans-serif;
+    background-image: url(../images/crystal-13.jpg);
+    background-color: #bd88fa;
+    text-align: center;
+    color: #fadb4f;
+    padding-bottom: 8px;
+}
+
+#instructions-box {
+    background-image: linear-gradient(to bottom, #fff, #6ae8f8);
+    padding: 10px 10px 1px;
+    width: 100%;
+    font-family: inherit;
+}
+
+#button-message-box {
+    background-color: #6ae8f8;
+    padding: 10px 10px;
+}
+
+h2 {
+    color: #3529a3;
+    text-align: center;
+}
+
+#score-label {
+    text-align: center;
+}
+
+#random-box {
+    padding: 5px;
+    background-color: #f6f87c;
+}
+
+#score-box {
+    padding: 5px;
+    background-color: #83f8b4;
+}
+
+#win-loss-section {
+    background-color: #6ac4f8;
+    padding-top: 10px;
+}
+
+#crystal-section {
+    background-color: #8a8cff;
+    /* padding: 1rem; */
+}
+
+.crystal {
+    height:120px;
+}
+
