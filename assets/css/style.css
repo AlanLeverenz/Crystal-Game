@@ -67,10 +67,10 @@ h2 {
     height:120px;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .crystal {
       min-width: 100%;
       flex-wrap: flex;
   }
 
-}
+} */
