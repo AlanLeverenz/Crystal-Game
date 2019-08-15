@@ -11,7 +11,7 @@ $(document).ready(function() {
     var totalScore = 0;
     var reset = false;
     var imagePath = "assets/images/";
-
+    // array containing crystal images
     var crystalImageArr = ["crystal-1.jpg","crystal-2.jpg","crystal-5.jpg","crystal-6.jpg","crystal-7.jpg","crystal-8.jpg","crystal-9.jpg","crystal-10.jpg","crystal-11.jpg","crystal-12.jpg"];
 
 
@@ -37,7 +37,6 @@ $(document).ready(function() {
             console.log("num = " + num);
         } // end for
     }    
-
 
     // generate random images for the crystal buttons
     var setCrystalImages = function () { 

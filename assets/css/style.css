@@ -65,12 +65,12 @@ h2 {
 
 .crystal {
     height:120px;
+    width:90px;
 }
 
-/* @media screen and (max-width: 600px) {
-    .crystal {
-      min-width: 100%;
+ /* @media screen and (max-width: 600px) {
+    .row {
+      width: 100%;
       flex-wrap: flex;
-  }
-
+  } 
 } */
