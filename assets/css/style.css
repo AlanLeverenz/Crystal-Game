@@ -2,12 +2,18 @@
     box-sizing: border-box;
 }
 
+.wrapper {
+    max-width: 480px;
+    width: 100%;
+    margin: 2%;
+}
+
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 20px;
 }
-
+ 
 .page-header {
     font-family: 'Amaranth', Arial, Helvetica, sans-serif;
     background-image: url(../images/crystal-13.jpg);
@@ -68,9 +74,9 @@ h2 {
     width:90px;
 }
 
- /* @media screen and (max-width: 600px) {
+ @media screen and (max-width: 500px) {
     .row {
       width: 100%;
       flex-wrap: flex;
   } 
-} */
+}
